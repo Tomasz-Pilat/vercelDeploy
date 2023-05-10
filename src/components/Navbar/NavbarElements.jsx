@@ -1,6 +1,6 @@
 import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { FaPizzaSlice } from 'react-icons/fa';
+import { FaSignInAlt } from 'react-icons/fa';
 
 export const Nav = styled.nav`
 	background: transparent;
@@ -39,7 +39,7 @@ export const NavIcon = styled.div`
 	}
 `;
 
-export const Bars = styled(FaPizzaSlice)`
+export const Bars = styled(FaSignInAlt)`
 	font-size: 2rem;
 	transform: translate(-50%, -15%);
 `;

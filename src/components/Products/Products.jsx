@@ -22,9 +22,9 @@ function Products({ heading, data }) {
 						<ProductsCard key={index}>
 							<ProductsImg src={product.img} alt={product.alt} />
 							<ProductsInfo>
+								<ProductsPrice>{product.price}</ProductsPrice>
 								<ProductsTitle>{product.name}</ProductsTitle>
 								<ProductsDesc>{product.desc}</ProductsDesc>
-								<ProductsPrice>{product.price}</ProductsPrice>
 								<ProductsButton>{product.button}</ProductsButton>
 							</ProductsInfo>
 						</ProductsCard>

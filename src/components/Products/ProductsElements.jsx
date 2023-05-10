@@ -53,7 +53,6 @@ export const ProductsDesc = styled.p`
 `;
 
 export const ProductsPrice = styled.p`
-	margin-bottom: 1rem;
 	font-size: 2rem;
 `;
 

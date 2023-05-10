@@ -1,9 +1,9 @@
-import product1 from '../../images/product-1.jpg';
-import product2 from '../../images/product-2.jpg';
-import product3 from '../../images/product-3.jpg';
-import sweet1 from '../../images/sweet3.jpg';
-import sweet2 from '../../images/sweet-2.jpg';
-import sweet3 from '../../images/sweet-3.jpg';
+import product1 from '../../images/01.jpg';
+import product2 from '../../images/02.jpg';
+import product3 from '../../images/03.jpg';
+import sweet1 from '../../images/01.jpg';
+import sweet2 from '../../images/02.jpg';
+import sweet3 from '../../images/03.jpg';
 
 export const productData = [
 	{
@@ -35,26 +35,26 @@ export const productData = [
 export const productDataTwo = [
 	{
 		img: sweet2,
-		alt: 'Doughnuts',
-		name: 'Doughlicious',
-		desc: 'Belgian chocolate glazed doughnuts covered in icing with sprinkles on top',
-		price: 'Ksh 100',
-		button: 'Add to Cart',
+		alt: 'CEO',
+		name: 'John Doe',
+		desc: 'Hire Talents to provide best product with best quality.',
+		price: 'CEO',
+		button: '+1(555)3332222',
 	},
 	{
 		img: sweet3,
-		alt: 'Ice Cream',
-		name: 'Caramel Wonder',
-		desc: 'Vanilla ice cream covered with caramel and chocolate glaze topped with a coco stick',
-		price: 'Ksh 130',
-		button: 'Add to Cart',
+		alt: 'CTO',
+		name: 'Michael Doe',
+		desc: 'Excellent team makes excellent product. Will try to do best',
+		price: 'CTO',
+		button: '+1(555)3332222',
 	},
 	{
 		img: sweet1,
-		alt: 'Brownie',
-		name: 'Brownie Bunch',
-		desc: 'Double fudge brownie squares topped with white chocolate pieces and macadamia nuts',
-		price: 'Ksh 100',
-		button: 'Add to Cart',
+		alt: 'Director',
+		name: 'Angel Doe',
+		desc: 'Credit is the first, Money is the second',
+		price: 'Director',
+		button: '+1(555)3332222',
 	},
 ];

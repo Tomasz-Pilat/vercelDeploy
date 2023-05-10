@@ -5,9 +5,9 @@ function NavBar({ toggle }) {
 	return (
 		<>
 			<Nav>
-				<NavLink to='/'>Pizza</NavLink>
+				<NavLink to='/'>Michael-Donald</NavLink>
 				<NavIcon onClick={toggle}>
-					<p>Menu</p>
+					<p>Login / Register</p>
 					<Bars />
 				</NavIcon>
 			</Nav>
